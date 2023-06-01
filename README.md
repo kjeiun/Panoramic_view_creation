@@ -1,6 +1,9 @@
 # Panoramic_view_creation
 This project allows you to create a panoramic view by selecting a corresponding point. Using this correspondences, warp the src img by backward warping and this allows you to make panoramic img using stitch function.
 
+![image](https://github.com/kjeiun/Panoramic_view_creation/assets/87067659/2166f9c8-f69a-4b49-9017-ec5b7e604016)
+
+
 get_coord.py
 
 functions: get_coord
@@ -12,13 +15,7 @@ homography.py
 
 
 functions:
-
-
-get_homography(src, dst)
-
-
-
-
+get_homography(src, dst),   
 ransac(src_points, dst_points, iteration, threshold)
 
 
@@ -28,11 +25,7 @@ stitch.py
 
 
 functions:
-
-
-warp(image, H, target_w, target_h)
-
-
+warp(image, H, target_w, target_h),   
 stitch(src_img, dst_img)
 
 
@@ -42,8 +35,6 @@ main.py
 
 
 functions:
-
-
 stitch_all()
 
 
