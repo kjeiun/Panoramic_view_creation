@@ -5,6 +5,9 @@ get_coord.py
 
 functions: get_coord
 
+
+
+
 homography.py
 
 
@@ -14,10 +17,14 @@ functions:
 get_homography(src, dst)
 
 
+
+
 ransac(src_points, dst_points, iteration, threshold)
 
 
 stitch.py
+
+
 
 
 functions:
@@ -30,6 +37,7 @@ stitch(src_img, dst_img)
 
 
 
+
 main.py
 
 
@@ -37,6 +45,8 @@ functions:
 
 
 stitch_all()
+
+
 
 
 get_coord(ssrc_img, ddst_img): This function allows you to choose correspondences between two images
